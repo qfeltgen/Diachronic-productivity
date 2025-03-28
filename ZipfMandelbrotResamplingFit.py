@@ -119,12 +119,3 @@ nb_of_types = len(types)
 a_fit, b_fit = resampling_fit(top_frequency,nb_of_types,sample_size)
 
 print('Results of the fit: a = %.2f (target: %.2f); b = %.2f. (target: %.2f)'%(a_fit,a_target,b_fit,b_target))
-
-
-
-# Parameter fit using resampling_fit
-a_fit, b_fit = resampling_fit(top_frequency,nb_of_types,sample_size,M=1000,epsilon=1)
-
-print('Results of the fit: a = %.2f (target: %.2f); b = %.2f. (target: %.2f)'%(a_fit,a_target,b_fit,b_target))
-
-
